@@ -22,19 +22,6 @@ This app is designed for quick, portable translations. For high-fidelity formatt
 
 ---
 
-## 📸 UI Overview
-
-Your `assets/` folder includes:
-
-| File               | Description                       |
-|-------------------|-----------------------------------|
-| `ui.png`           | Main application interface        |
-| `target_language.png` | Language selection dropdown  |
-| `progress.png`     | Progress bar view                 |
-| `success.png`      | Success confirmation              |
-
----
-
 ### 🖼️ UI Previews
 
 #### 🧭 Main Interface  
