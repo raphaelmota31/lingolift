@@ -1,90 +1,98 @@
-# 🌍 LingoLift – Global PDF Translator
+# 🌐 LingoLift
 
-**LingoLift** is a desktop application that lets you translate the content of PDF files into multiple languages with ease. Built with `tkinter`, `PyPDF2`, and `googletrans`, it provides a simple interface and powerful backend for translating documents, preserving formatting, and even supporting fallback methods and resume functionality.
+**LingoLift** is a lightweight desktop tool that lets you translate PDF files into your desired language — right from your local machine.
+
+Whether you're a traveler, student, researcher, or professional, LingoLift gives you **on-the-go PDF translation** without needing to copy and paste chunks of text into online tools.
 
 ---
 
 ## 🚀 Features
 
-- 📂 **Translate any PDF** into major global languages.
-- 🌐 **Multilingual support** including Spanish, French, German, Chinese, Arabic, Japanese, and more.
-- ⏸️ **Resume translation** from previous progress.
-- 🛠️ **Fallback translator** option for large or complex documents.
-- 📊 **Progress tracking** and responsive GUI.
-- 📝 **Smart text wrapping** for multilingual formatting in the output PDF.
+- 📄 Translate entire PDFs in one go
+- 🌍 Choose any target language
+- 🎯 Simple and intuitive interface
+- ⚙️ Fully offline after installation
+- 💾 Save translated text as a clean PDF
 
 ---
 
-## 🖼️ UI Previews
+## 📝 Disclaimer
+
+This app is designed for quick, portable translations. For high-fidelity formatting or advanced document layouts (e.g., scientific papers, complex PDFs), **integrity-preserving support is planned for future releases.**
+
+---
+
+## 📸 UI Overview
 
 Your `assets/` folder includes:
 
-| File | Description |
-|------|-------------|
-| `ui` | Main application interface |
-| `target_language` | Language selection dropdown |
-| `progress` | Progress bar view |
-| `success` | Success confirmation |
-
-![UI Preview](./assets/ui)
+| File               | Description                       |
+|-------------------|-----------------------------------|
+| `ui.png`           | Main application interface        |
+| `target_language.png` | Language selection dropdown  |
+| `progress.png`     | Progress bar view                 |
+| `success.png`      | Success confirmation              |
 
 ---
 
-## 🧰 Dependencies
+### 🖼️ UI Previews
 
-Install these via `pip`:
+#### 🧭 Main Interface  
+![UI](assets/ui.png)
 
-```bash
-pip install PyPDF2 googletrans==4.0.0-rc1 reportlab pdfplumber
-```
+#### 🌍 Language Selection  
+![Target Language](assets/target_language.png)
 
-Optional:
+#### 🔄 Progress  
+![Progress](assets/progress.png)
 
-```bash
-pip install translate ttkthemes tendo
-```
+#### ✅ Translation Complete  
+![Success](assets/success.png)
 
 ---
 
-## 📦 How to Run
+## 🛠️ Usage
 
-```bash
-python lingolift.py
-```
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Garuda8887/lingolift.git
+   cd lingolift
+   ```
 
-On launch, select your input and output PDF, choose the target language, and hit **Translate PDF**. The app handles the rest — with a smooth interface and robust background threading.
+2. (Optional) Create a virtual environment  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   ```
+
+3. Install dependencies  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the app  
+   ```bash
+   python lingolift.py
+   ```
 
 ---
 
 ## 🌍 Supported Languages
 
-- English (`en`)
-- Spanish (`es`)
-- French (`fr`)
-- German (`de`)
-- Italian (`it`)
-- Portuguese (`pt`)
-- Russian (`ru`)
-- Chinese Simplified (`zh-cn`)
-- Japanese (`ja`)
-- Arabic (`ar`)
-- Hindi (`hi`)
+Supports all languages provided by [Google Translate](https://cloud.google.com/translate/docs/languages).
 
 ---
 
-## 📁 Progress & Resume
+## 📦 Dependencies
 
-LingoLift saves progress in a JSON file during long translations. If interrupted, you can resume from where it left off by enabling the **Resume Previous Translation** option.
-
----
-
-## 💡 Tips
-
-- For large PDFs, enable **Fallback Translator** for better stability.
-- Use system fonts like Arial or Mangal for enhanced language rendering.
+- `PyPDF2`
+- `googletrans`
+- `reportlab`
+- `tkinter`
+- `ttkthemes`
 
 ---
 
-## 📜 License
+## 🤝 License
 
-MIT License
+MIT License © [Garuda8887](https://github.com/Garuda8887)
